@@ -5,6 +5,9 @@ import java.util.ArrayList;
 public class RegistroDeLibros {
     private ArrayList<Libro> registro;
 
+    public  RegistroDeLibros(){
+        registro = new ArrayList<Libro>();
+    }
     //CUMPLE LA FUNCIONALIDAD DE AGREGAR UN LIBRO
     public void agregarLibro(Libro libro){
         registro.add(libro);
